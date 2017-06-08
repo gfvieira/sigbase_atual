@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>= BHMN =</title>
+        <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+
+        <!-- Bootstrap Core CSS -->
+        <link href="../css/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="../css/css/business-casual.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="../css/fonts/font.css" rel="stylesheet" type="text/css">
+        <link href="../css/fonts/font2.css" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <!--[endif]-->
+
+    </head>
+
+    <body>
+
+        <div class="brand"><a href="http://www.bhmn.mb" style="margin-left: 0px; margin-right: 400px; margin-bottom: 0px"><img src="../css/img/logos/BHMN.png" class="" alt="" width="60"></a>
+            BH-50
+            <a href="http://www.mar.mb" style="margin-left:400px; margin-right:0px; margin-bottom: 0px" ><img src="../css/img/mb.png" class="" alt="bhmn" width="70" ></a></div> 
+
+        <div class="address-bar">Departamento de Apoio</div>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                    <a class="navbar-brand" href="index3.html">Business Casual</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="page-scroll" href="../" style="color: black">Principal</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#" style="color: black">Acesso ao Folha-N</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="../loginSigbase.jsp" style="color: black">Acesso ao Sig-base</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: black">Pesquisas <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../pesquisa/ResultadoClimaOrg.jsp?perg=0">Clima Organizacional</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#" style="color: black">Como Utilizar?</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                    <a class="navbar-brand" href="oficinabh50.html">Business Casual</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="page-scroll" href="oficinabh50.html" style="color: black">Pedido de Serviço</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="oficinabh50_viatura.html" style="color: black">Pedido de Viatura</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="oficinabh50_consulta.html" style="color: black">Consultar Pedido</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="OficinaBh50Consult.jsp?id=3" style="color: black">Listar Pedidos</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><i>Serviço de Atendimento das Oficina do BH-50.</i>
+                    </h2>
+                    <hr>
+                    <p></p>
+                    <form class="form-horizontal style-form" action="OficinaBh50.jsp" method="post">
+                        <div class="form-group">
+                            <label class="col-sm-2 col-sm-2 control-label">Posto/Grad</label>
+                            <div class="col-sm-1">
+                                <select class="form-control" size="1" name="post" required>
+                                    <option value=""> </option>
+                                    <option value="AE">AE</option>
+                                    <option value="VA">VA</option>
+                                    <option value="CA">CA</option>
+                                    <option value="CMG">CMG</option>
+                                    <option value="CF">CF</option>
+                                    <option value="CC">CC</option>
+                                    <option value="CT">CT</option>
+                                    <option value="1T">1T</option>
+                                    <option value="2T">2T</option>
+                                    <option value="GM">GM</option>
+                                    <option value="S0">SO</option>
+                                    <option value="1SG">1SG</option>
+                                    <option value="2SG">2SG</option>
+                                    <option value="3SG">3SG</option>
+                                    <option value="CB">CB</option>
+                                    <option value="MN">MN</option>
+                                    <option value="SC">SC</option>
+                                </select>                            
+                            </div>
+                            <label class="col-sm-1 col-sm-2 control-label">Nome</label>
+                            <div class="col-sm-2">
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite o nome de guerra" maxlength="200" required>
+                            </div>
+                            <label class="col-sm-1 col-sm-2 control-label">NIP</label>
+                            <div class="col-sm-2">
+                                <input type="text" class="form-control" id="nip" name="nip" placeholder="Digite o nip" maxlength="30" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 col-sm-2 control-label">Ramal</label>
+                            <div class="col-sm-2">
+                                <input type="text" class="form-control" id="ramal" name="ramal" placeholder="Digite seu ramal" maxlength="4" required>
+                            </div>
+                            <label class="col-sm-1 col-sm-2 control-label">Setor</label>
+                            <div class="col-sm-2">
+                                <select class="form-control" size="1" name="setor" required>
+                                    <option value="">Selecione!</option>
+                                    <option value="DHN">DHN</option>
+                                    <option value="CHM">CHM</option>
+                                    <option value="CAMR">CAMR</option>
+                                    <option value="GNHO">GNHo</option>
+                                    <option value="BH-01">BH-01</option>
+                                    <option value="BH-02">BH-02</option>
+                                    <option value="BH-03">BH-03</option>
+                                    <option value="BH-04">BH-04</option>
+                                    <option value="BH-05">BH-05</option>
+                                    <option value="BH-06">BH-06</option>
+                                    <option value="BH-07">BH-07</option>
+                                    <option value="BH-07">BH-08</option>
+                                    <option value="BH-10">BH-10</option>
+                                    <option value="BH-11">BH-11</option>
+                                    <option value="BH-12">BH-12</option>
+                                    <option value="BH-13">BH-13</option>
+                                    <option value="BH-20">BH-20</option>
+                                    <option value="BH-21">BH-21</option>
+                                    <option value="BH-22">BH-22</option>
+                                    <option value="BH-23">BH-23</option>
+                                    <option value="BH-24">BH-24</option>
+                                    <option value="BH-25">BH-25</option>
+                                    <option value="BH-30">BH-30</option>
+                                    <option value="BH-31">BH-31</option>
+                                    <option value="BH-32">BH-32</option>
+                                    <option value="BH-33">BH-33</option>
+                                    <option value="BH-34">BH-34</option>
+                                    <option value="BH-40">BH-40</option>
+                                    <option value="BH-41">BH-41</option>
+                                    <option value="BH-42">BH-42</option>
+                                    <option value="BH-43">BH-43</option>
+                                    <option value="BH-44">BH-44</option>
+                                    <option value="BH-45">BH-45</option>
+                                    <option value="BH-50">BH-50</option>
+                                    <option value="BH-51">BH-51</option>
+                                    <option value="BH-52">BH-52</option>
+                                    <option value="BH-53">BH-53</option>
+                                    <option value="BH-54">BH-54</option>
+                                    <option value="BH-50">BH-55</option>
+
+                                </select>
+                            </div>                                            
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 col-sm-2 control-label">Atendimento</label>
+                            <div class="col-sm-2">
+                                <select class="form-control" size="1" name="atendimento" required>
+                                    <option value="">Selecione!</option>
+                                    <option value="ELETRICA">Elétrica</option>
+                                    <option value="REFRIGERACAO">Refrigeração</option>
+                                    <option value="CARPINTARIA">Carpintaria</option>
+                                    <option value="METALURGIA">Metalurgia</option>
+                                    <option value="PREFEITURA">Prefeitura</option>
+                                    <option value="AGUADA">CAV-Aguada</option>
+                                    <option value="MERGULHO">Mergulho</option>
+                                    <option value="PROCYON">Lancha Procyon</option>
+                                </select>
+                            </div> 
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 col-sm-2 control-label">Solicitação</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="Txtsolicitacao" name="sol" placeholder="Digite aqui sua solicitação!" maxlength="500" required>
+                                <span class="caracteres1">500</span> Restantes
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 col-sm-2 control-label">Descrição</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="Txtdescrioes" rows="3" name="des" maxlength="1000" placeholder="Digite aqui a descrição do problema!" required></textarea>
+                                <span class="caracteres2">1000</span> Restantes
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 col-sm-2 control-label">Observação</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="TxtObservacoes" rows="3" name="obs" maxlength="5000" placeholder="(OPCIONAL) - Digite aqui uma observação para o atendimento"></textarea>
+                                <span class="caracteres">5000</span> Restantes
+                            </div>
+                        </div>
+                        <br>
+                        <hr>
+                        <br>
+                        <div class="form-group">
+                            <label class="col-sm-5 col-sm-5 control-label"></label>
+                            <div class="col-sm-2">
+                                <button type="submit" class="btn btn-default">Cadastrar pedido</button>
+                            </div>
+                        </div>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+        <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal1" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Comunicado aos servidores – Pesquisa GPTW</h4>
+                    </div>
+                    <div class="modal-body">                                          
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <br>
+                    <div style="font-size:11px; padding-bottom: 30px" class="col-lg-12 text-center">
+                        <p>Todos os Direitos Reservados © 2016 - Base de Hidrografia da Marinha em Niterói</p>
+                        <p>Rua Barão de Jaceguai s/n - CEP: 24048-900 - Ponta da Armação - Niterói - RJ</p>
+                        <p>Tel: 2189-3469 - Retelma: 8112-3469 - Fax: 2189-3467 </p>
+                        <p>Tel: 2189-3186 - Retelma: 8112-3186 (Sala de Estado)</p>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="../css/js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../css/js/bootstrap.min.js"></script>
+
+        <!-- Script to Activate the Carousel -->
+        <script>
+            $('.carousel').carousel({
+                interval: 5000 //changes the speed
+            })
+        </script>
+        <script type="application/javascript">
+            $(document).on("input", "#TxtObservacoes", function () {
+            var limite = 5000;
+            var caracteresDigitados = $(this).val().length;
+            var caracteresRestantes = limite - caracteresDigitados;
+
+            $(".caracteres").text(caracteresRestantes);
+            });
+
+            $(document).on("input", "#Txtdescrioes", function () {
+            var limite = 1000;
+            var caracteresDigitados = $(this).val().length;
+            var caracteresRestantes = limite - caracteresDigitados;
+
+            $(".caracteres2").text(caracteresRestantes);
+            });
+
+            $(document).on("input", "#Txtsolicitacao", function () {
+            var limite = 500;
+            var caracteresDigitados = $(this).val().length;
+            var caracteresRestantes = limite - caracteresDigitados;
+
+            $(".caracteres1").text(caracteresRestantes);
+            });
+        </script>
+
+    </body>
+
+</html>

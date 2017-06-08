@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>= BHMN =</title>
+        <link rel="shortcut icon" href="img/BHMN.png">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>= BHMN =</title>
+        <link rel="shortcut icon" href="assets3/images/gt_favicon.png">
+
+        <!-- Bootstrap Core CSS -->
+        <link href="../../css/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="../../css/css/business-casual.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <!--        <link href="css/fonts/font.css" rel="stylesheet" type="text/css">
+                <link href="css/fonts/font2.css" rel="stylesheet" type="text/css">-->
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <!--[endif]-->
+    </head>
+
+    <body>
+        <div class="brand"><a href="http://www.bhmn.mb" style="margin-left: 0px; margin-right: 45px; margin-bottom: 0px"><img src="../../css/img/logos/BHMN.png" class="" alt="" width="70"></a>
+            Base de Hidrografia da Marinha em Niterói
+            <a href="http://www.mar.mb" style="margin-left:45px; margin-right:0px; margin-bottom: 0px" ><img src="../../css/img/logos/navy.png" class="" alt="bhmn" width="180" ></a></div> 
+
+        <div class="address-bar">Diretoria de Hidrografia e Navegação</div>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                    <a class="navbar-brand" href="index.html">Business Casual</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="http://www.bhmn.mb/netuno.html" style="color: black">Programa Netuno</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="http://www.bhmn.mb/bhmnews.html" style="color: black">BHMNews</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="http://www.bhmn.mb/secom.html" style="color: black">SECOM</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: black">Sistemas<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://www.bhmn.mb:8080/sigbase">SIG-BASE</a></li>
+                                <li><a href="https://dhn3.dhn.mb/">Lotus Web</a></li>
+                                <li><a href="http://www.bhmn.mb/sigdem.html">SiGDEM</a></li>
+                                <li><a href="http://dpmm.mb/?q=node/97">SiSBOL</a></li>
+                                <li><a href="http://www.aplicacoes.dpmm.mb/seguranca/login.asp">BDPes</a></li>
+                                <li><a href="https://bponline.papem.mar.mil.br/views/default.php">BP On-line</a></li>
+                                <li><a href="https://econsigmb.papem.mar.mil.br/mb/login/login_servidor.jsp#no-back">eConsig</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="http://www.sigbase.mb/?q=imce" style="color: black">Licitações</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="http://www.bhmn.mb/chapa.html" style="color: black">CHaPA</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="http://www.bhmn.mb:8080/sigbase/bhmn/bh05/contact.html" style="color: black">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <div class="container">
+            <!--<div class="row">
+                <div class="box">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center" style="color: red" >
+                            <strong>Comunicado aos servidores – Pesquisa GPTW</strong>
+                        </h2>
+                        <hr>
+                        <hr class="visible-xs">
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Prezado (a) servidor (a),</p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Temos a satisfação de informar que nossa organização participará do processo 
+                            “Great Place to Work® - Melhores Empresas para Trabalhar” que tem como objetivo 
+                            pesquisar, identificar e premiar as organizações com os melhores ambientes de trabalho.</p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">A pesquisa é conduzida pelo Great Place to Work®, que aplica a mesma metodologia
+                            em 53 países no mundo, onde classifica as Melhores Empresas para Trabalhar.</p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Responda às perguntas de forma sincera, pois garantimos que o processo 
+                            é confidencial e os dados serão enviados diretamente para o instituto.</p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Sua participação é muito importante, pois, por meio de suas respostas, 
+                            saberemos se a nossa organização pode ser considerada uma das Melhores 
+                            Empresas para Trabalhar e quais serão os pontos de melhoria que poderão ser 
+                            implementados pela organização.  </p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">
+                            Você poderá acessar a pesquisa através do link <a href="http://www.gptw.com.br/questionario" target="_blank">www.gptw.com.br/questionario</a>, 
+                            entre os dias 29/03/2016 e 13/04/2016. </p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Utilize seu CPF (CPF no formato 99999999999) como código e sua data de nascimento 
+                            (data de nascimento no formato ddmmaaaa) como senha para seu primeiro acesso.</p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Após o primeiro acesso, para sua confidencialidade, será solicitada uma nova senha 
+                            de sua preferência. Caso não finalize a pesquisa no primeiro acesso, insira novamente 
+                            o CPF e a nova senha ao invés da data de nascimento.</p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Ao terminar de responder todas as afirmativas, clique em "Finalizar Pesquisa". 
+                            Seu questionário será enviado diretamente ao Great Place to Work®. </p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">IMPORTANTE: Apenas respondem a pesquisa os servidores com 
+                            mais de 3 meses de organização. </p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Em caso de dúvida, entre em contato diretamente com o Great Place to Work® 
+                            por meio do telefone 11 3093 7771 ou pelo e-mail melhores@gptw.com.br.</p>
+                          
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Contamos com sua participação!!!</p>
+
+                        <p style="text-justify: auto; margin-left: 80px; padding-right: 80px">Cordialmente, </p>
+                        <p class="text-center">
+                            <img class="img-responsive img-border img-center" src="img/Assinatura BH-01.jpg" alt="" width="250">
+                            <br>ALEXEY BOBROFF DAROS<br>
+                            Capitão de Mar e Guerra<br>
+                            COMANDANTE</p>
+                    </div>
+                </div>
+            </div>-->
+            <div class="row">
+                <div class="box">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center">Entre em
+                            <strong>Contato</strong>
+                        </h2>
+                        <hr>
+                        <p>Duvidas, Críticas, Elogios entre em contato conosco e deixe sua mensagem. A BHMN agradece a sua participação!</p>
+                        <form role="form" action="InsereMsg.jsp" method="POST">
+                            <div class="row">
+                                <div class="form-group col-lg-4">
+                                    <label>Nome (não é obrigatório)</label>
+                                    <input type="text" class="form-control" name="nome">
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <label>Email (não é obrigatório)</label>
+                                    <input type="email" class="form-control" name="email">
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <label>Numero de contato (não é obrigatório)</label>
+                                    <input type="tel" class="form-control" name="contato">
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="form-group col-lg-12">
+                                    <label>Mensagem</label>
+                                    <textarea class="form-control" rows="6" required="" name="mensagem"></textarea>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <button type="submit" class="btn btn-default">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <br>
+                    <div style="font-size:11px; padding-bottom: 30px" class="col-lg-12 text-center">
+                        <p>Todos os Direitos Reservados © 2016 - Base de Hidrografia da Marinha em Niterói</p>
+                        <p>Rua Barão de Jaceguai s/n - CEP: 24048-900 - Ponta da Armação - Niterói - RJ</p>
+                        <p>Tel: 2189-3469 - Retelma: 8112-3469 - Fax: 2189-3467 </p>
+                        <p>Tel: 2189-3186 - Retelma: 8112-3186 (Sala de Estado)</p>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <!-- Script to Activate the Carousel -->
+        <script>
+            $('.carousel').carousel({
+                interval: 5000 //changes the speed
+            })
+        </script>
+        <!--<script type="text/javascript">
+            $(document).ready(function () {
+                $('#myModal1').modal({
+                    show: true
+                });
+            });
+        </script>-->
+
+    </body>
+
+</html>
